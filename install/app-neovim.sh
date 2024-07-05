@@ -6,7 +6,7 @@ if [ ! -d "$HOME/.config/nvim" ]; then
   sed -i 's/checker = { enabled = true }/checker = { enabled = true, notify = false }/g' ~/.config/nvim/lua/config/lazy.lua
   mkdir -p ~/.config/nvim/plugin/after
   cp ~/.local/share/xstation/configs/neovim/transparency.lua ~/.config/nvim/plugin/after/
-  cp ~/.local/share/xstation/themes/neovim/tokyo-night.lua ~/.config/nvim/lua/plugins/theme.lua
+  cp ~/.local/share/xstation/configs/neovim/tokyo-night.lua ~/.config/nvim/lua/plugins/theme.lua
 
   # Enable default extras
 
