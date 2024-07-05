@@ -8,10 +8,11 @@ sudo apt install -y curl git unzip
 # Run installers
 xstation_install_path="~/.local/share/xstation/install"
 
+echo "Installing......0"
 source "${xstation_install_path}/a-shell.sh"
 
 if [ -d ${xstation_install_path} ]; then
-
+  echo "Installing......1"
   source "${xstation_install_path}/app-fastfetch.sh"
   source "${xstation_install_path}/app-github-cli.sh"
   source "${xstation_install_path}/app-gum.sh"
@@ -20,10 +21,12 @@ if [ -d ${xstation_install_path} ]; then
   source "${xstation_install_path}/app-neovim.sh"
   source "${xstation_install_path}/app-tmux.sh"
   source "${xstation_install_path}/apps-terminal.sh"
+  echo "Installing......2"
   source "${xstation_install_path}/docker.sh"
   #  source "${xstation_install_path}/mise.sh"
   source "${xstation_install_path}/libraries.sh"
   source "${xstation_install_path}/miniconda.sh"
+  echo "Installing......3"
   source "${xstation_install_path}/app-starship.sh"
   # 	source "${xstation_install_path}/select-dev-env.sh"
   source "${xstation_install_path}/set-git.sh"
