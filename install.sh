@@ -10,7 +10,7 @@ xstation_install_path="~/.local/share/xstation/install"
 
 source "${xstation_install_path}/a-shell.sh"
 
-if [ -d ${omakub_install_path} ]; then
+if [ -d ${xstation_install_path} ]; then
 
   source "${xstation_install_path}/app-fastfetch.sh"
   source "${xstation_install_path}/app-github-cli.sh"

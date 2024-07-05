@@ -14,7 +14,7 @@ echo "\nBegin installation (or abort with ctrl+c)..."
 sudo apt-get update >/dev/null
 sudo apt-get install -y git >/dev/null
 
-echo "Cloning stable Omakub..."
+echo "Cloning xstation repository..."
 rm -rf ~/.local/share/xstation
 git clone https://github.com/feiyinn/xstation.git ~/.local/share/xstation >/dev/null
 
