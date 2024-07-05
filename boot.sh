@@ -13,6 +13,8 @@ echo "$ascii_art"
 echo "=> xstation is for fresh Ubuntu 24.04 Server LTS (Non-GUI) installations only!"
 echo "\nBegin installation (or abort with ctrl+c)..."
 
+export DEBIAN_FRONTEND="noninteractive"
+
 sudo apt-get update >/dev/null
 sudo apt-get install -y apt-utils >/dev/null
 sudo apt-get install -y git >/dev/null
