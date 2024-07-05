@@ -15,8 +15,8 @@ sudo apt-get update >/dev/null
 sudo apt-get install -y git >/dev/null
 
 echo "Cloning xstation repository..."
-rm -rf ~/.local/share/xstation
-git clone https://github.com/feiyinn/xstation.git ~/.local/share/xstation >/dev/null
+rm -rf $HOME/.local/share/xstation
+git clone https://github.com/feiyinn/xstation.git $HOME/.local/share/xstation >/dev/null
 
 echo "Installation starting..."
-source ~/.local/share/xstation/install.sh
+source $HOME/.local/share/xstation/install.sh

@@ -6,7 +6,7 @@ sudo apt update -y
 sudo apt install -y curl git unzip
 
 # Run installers
-xstation_install_path="~/.local/share/xstation/install"
+xstation_install_path="$HOME/.local/share/xstation/install"
 
 echo "Installing......0"
 source "${xstation_install_path}/a-shell.sh"
