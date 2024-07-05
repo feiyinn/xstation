@@ -37,3 +37,4 @@ echo "Installer is finalizing ....."
 sleep 5s
 # Upgrade everything that might ask for a reboot last
 sudo apt upgrade -y
+sudo timedatectl set-timezone Asia/Shanghai
