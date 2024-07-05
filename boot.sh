@@ -1,3 +1,5 @@
+#!/bin/bash
+
 set -e
 
 ascii_art='______  _______  ___
@@ -12,7 +14,7 @@ echo "=> xstation is for fresh Ubuntu 24.04 Server LTS (Non-GUI) installations o
 echo "\nBegin installation (or abort with ctrl+c)..."
 
 sudo apt-get update >/dev/null
-sudo apt-get install -y git >/dev/null
+sudo apt-get install -y git apt-utils >/dev/null
 
 echo "Cloning xstation repository..."
 rm -rf $HOME/.local/share/xstation
