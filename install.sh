@@ -37,9 +37,9 @@ sudo timedatectl set-timezone Asia/Shanghai
 
 # >>> Work arround patch for a fzf issue >>>
 
-cp ~/.local/share/xstation/configs/tmux/key*.* /usr/share/doc/fzf/examples
-cp ~/.local/share/xstation/configs/tmux/completion.zsh /usr/share/doc/fzf/examples
-cp ~/.local/share/xstation/configs/tmux/fzf.vim /usr/share/doc/fzf/examples
+sudo cp ~/.local/share/xstation/configs/tmux/key*.* /usr/share/doc/fzf/examples
+sudo cp ~/.local/share/xstation/configs/tmux/completion.zsh /usr/share/doc/fzf/examples
+sudo cp ~/.local/share/xstation/configs/tmux/fzf.vim /usr/share/doc/fzf/examples
 
 # <<< End of patch <<<
 
