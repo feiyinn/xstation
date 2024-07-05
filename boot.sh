@@ -7,7 +7,7 @@ ascii_art='______  _______  ___
 |_|    |_|      |_| \_\
 '
 
-echo -e "$ascii_art"
+echo "$ascii_art"
 echo "=> xstation is for fresh Ubuntu 24.04 Server LTS (Non-GUI) installations only!"
 echo -e "\nBegin installation (or abort with ctrl+c)..."
 
