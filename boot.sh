@@ -14,7 +14,8 @@ echo "=> xstation is for fresh Ubuntu 24.04 Server LTS (Non-GUI) installations o
 echo "\nBegin installation (or abort with ctrl+c)..."
 
 sudo apt-get update >/dev/null
-sudo apt-get install -y git apt-utils >/dev/null
+sudo apt-get install -y apt-utils >/dev/null
+sudo apt-get install -y git >/dev/null
 
 echo "Cloning xstation repository..."
 rm -rf $HOME/.local/share/xstation
