@@ -23,10 +23,11 @@ if [ -d ${xstation_install_path} ]; then
   source "${xstation_install_path}/docker.sh"
   #  source "${xstation_install_path}/mise.sh"
   source "${xstation_install_path}/libraries.sh"
-  source "${xstation_install_path}/miniconda.sh"
+  #  source "${xstation_install_path}/miniconda.sh"
   source "${xstation_install_path}/app-starship.sh"
   # 	source "${xstation_install_path}/select-dev-env.sh"
   source "${xstation_install_path}/set-git.sh"
+#  source "${xstation_install_path}/nodejs.sh"
 fi
 
 echo "Installer is finalizing ....."
