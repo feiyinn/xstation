@@ -19,6 +19,8 @@ After install, please reboot machine then go through below initialize procedure
 
 5 Press q and q to quit vi
 
-6 The whole setup is completed.
+6 Execute "lazygit" once to initiate it's config file under ~/.config/lazygit
+
+7 The whole setup is completed.
 
 
